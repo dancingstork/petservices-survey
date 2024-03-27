@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pet survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <form action="#" method="post">
+      <div class="survey-title">
+        <h1>pet survey</h1>
+        <p>please let us know more about your pet so we can provide <strong>better</strong> service!</p>
+      </div>
+      <fieldset>
+        <legend>about you</legend>
+        <div class="question-box">
+          <label for="user-name" class="question">your name: <input class="block" type="text" name="name" id="name"
+              required>
+          </label>
+          <label for="email" class="question">your email: <input type="email" class="block" name="email" id="email"
+              required></label>
+          <label for="user-age" class="question">your age: <input type="number" class="block" name="user-age"
+              id="user-age" required></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>about your pet</legend>
+        <div class="question-box">
+          <p class="question">what kind of pet do you have?</p>
+          <select class="block" name="pet-kind" id="pet-kind" required>
+            <option disabled selected value>select</option>
+            <option value="dog">dog</option>
+            <option value="cat">cat</option>
+            <option value="turtle">turtle</option>
+            <option value="rabbit">rabbit</option>
+            <option value="other">other</option>
+          </select>
+          <label for="pet-name" class="question">pet's name: <input class="block" type="text" name="name" id="pet-name"
+              required></label>
+          <label for="pet-age" class="question">pet's age: <input type="number" class="block" name="pet-age"
+              id="pet-age" required></label>
+
+          <p class="question">does your pet seem happy with our services?</p>
+          <label for="loves"><input type="radio" value="loves" name="likes-dislikes" id="loves" required> he loves
+            it!</label>
+          <label for="hard-to-tell"><input type="radio" value="hard-to-tell" name="likes-dislikes" id="hard-to-tell">
+            hard
+            to
+            tell</label>
+          <label for="hates"><input type="radio" value="hates" name="likes-dislikes" id="hates"> he hates it...</label>
+          </label>
+
+          <p class="question">what should we improve so your pet can be more satisfied?</p>
+          <label for="price"><input type="checkbox" id="lower=price" name="improve"> lower your prices</label>
+          <label for="staff"><input type="checkbox" name="improve" id="better-staff"> hire kinder staff</label>
+          <label for="snacks"><input type="checkbox" name="improve" id="more-snacks"> provide more yummy snacks</label>
+          <label for="pets"><input type="checkbox" name="improve" id="pets"> more belly rubs from staff</label>
+
+          <p class="comment-title question">any thoughts you'd like to share with us?</p>
+          <label for="user-comment"><textarea name="user-comment" id="user-comment" cols="50" rows="10"></textarea>
+          </label>
+
+          <button type="submit">submit</button>
+          <p class="thank-you">thank you for your time!</p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>

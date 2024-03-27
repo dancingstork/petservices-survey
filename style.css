@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url("https://gratisography.com/wp-content/uploads/2023/10/gratisography-cool-cat-1170x780.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  background: linear-gradient(to top right, rgba(81, 48, 42, 0.2), rgba(141, 196, 255, 0.2));
+  max-width: 50vw;
+  margin: 5em auto;
+  padding: 2em;
+  max-width: 900px;
+}
+
+.survey-title {
+  background: rgba(131, 196, 225, 0.9);
+  padding: 2em;
+  text-align: center;
+}
+
+.wrapper,
+.survey-title {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  padding-bottom: 0.3em;
+}
+
+.survey-title p {
+  font-size: 1.5rem;
+}
+
+fieldset {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  border-left: none;
+  border-right: none;
+  border-color: #98e2ff;
+  margin: 0.9em 0;
+  padding: 1em 0 2em;
+  border-radius: 0 20px 20px 0;
+}
+
+legend {
+  font-size: 1.6rem;
+  color: #98e2ff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5em;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.block,
+label,
+textarea {
+  display: block;
+  min-width: 100%;
+}
+
+input {
+  padding: 0.8em 0.2em;
+  font-size: 1rem;
+  vertical-align: middle;
+  margin: 0.4em 0;
+}
+
+.question-box,
+label,
+p,
+select {
+  font-size: 1.2rem;
+  max-width: 70%;
+  margin: 0.4em auto;
+}
+
+.question {
+  color: #b4dbff;
+  padding: 0.5em 1em;
+  font-size: 1.4em;
+}
+
+button {
+  background: rgb(131, 196, 225);
+  border: none;
+  display: block;
+  min-width: 80%;
+  margin: 0.5em auto;
+  padding: 0.4em 0;
+  border-radius: 10px;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.thank-you {
+  color: #c7c7c7;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
